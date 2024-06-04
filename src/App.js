@@ -47,7 +47,7 @@ function App() {
   };
 
   const finalizePurchase = () => {
-    alert('Purchase finalized!');
+    alert('Purchase complete!');
     setCart([]);
   };
 
