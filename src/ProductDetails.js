@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import T_shirt1 from './images/T_shirt1.jpg';
 import hoodie1 from './images/hoodie1.jpg';
 import hoodie2 from './images/hoodie2.jpg';

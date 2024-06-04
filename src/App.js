@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ProductList from './Components/ProductList';
 import ProductDetails from './ProductDetails';

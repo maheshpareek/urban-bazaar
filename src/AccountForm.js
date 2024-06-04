@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function AccountForm({ userDetails, saveUserDetails }) {
   const [formData, setFormData] = useState(userDetails || {
