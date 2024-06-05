@@ -13,7 +13,9 @@ function App() {
   const [showAccountForm, setShowAccountForm] = useState(false);
 
   const products = [
-    { id: 1, name: 'T-shirt', description: 'Comfortable cotton t-shirt', image: 'T_shirt1.jpg' },
+    { id: 1, name: 'T-shirt', description: 'Comfortable cotton t-shirt', 
+    aboutProduct: '', 
+    image: 'T_shirt1.jpg' },
     { id: 2, name: 'Hoodie 1', description: 'Warm and cozy hoodie', image: 'hoodie1.jpg' },
     { id: 3, name: 'Hoodie 2', description: 'Stylish hoodie with a front pocket', image: 'hoodie2.jpg' },
     { id: 4, name: 'Hoodie 3', description: 'Lightweight hoodie', image: 'hoodie3.jpg' },
